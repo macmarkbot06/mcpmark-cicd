@@ -1,8 +1,7 @@
-# Release-note seed checklist
+# Release Note Seed Checklist
 
-- [ ] Confirm the release scope and version target.
-- [ ] Capture user-facing changes and any migration notes.
-- [ ] Verify docs updates match the final code behavior.
-- [ ] Ensure reviewers know whether the change is breaking or additive.
+- [ ] Summarize the user-facing change.
+- [ ] Note any API endpoint additions, removals, or behavior changes.
+- [ ] Confirm links, examples, and version references are accurate.
 
-Before merging, review any API endpoint changes carefully. Even small adjustments to request shapes, response fields, status codes, or error handling can affect downstream consumers and release coordination. This checklist is a reminder to double-check those changes early so release notes stay accurate and the rollout remains predictable.
+Before merging, review any API endpoint changes carefully so the release note captures breaking changes, compatibility impacts, and any follow-up coordination needed for downstream users.
